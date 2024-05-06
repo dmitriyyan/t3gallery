@@ -31,8 +31,8 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 # T3 Gallery
 
 ## TODO
- - [ ] Make it deploy (w/ Vercel)
- - [ ] Scaffold basic ui with mock data
+ - [x] Make it deploy (w/ Vercel)
+ - [x] Scaffold basic ui with mock data
  - [ ] Actually set up a database (/w Vercel Postgres)
  - [ ] Attach database to ui
  - [ ] Add authentication (w/ Clerk)
