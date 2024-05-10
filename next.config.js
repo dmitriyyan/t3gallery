@@ -6,6 +6,18 @@ await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
 const coreConfig = {
+  async rewrites() {
+    return [
+      {
+        source: "/ingest/static/:path*",
+        destination: "https://us-assets.i.posthog.com/static/:path*",
+      },
+      {
+        source: "/ingest/:path*",
+        destination: "https://us.i.posthog.com/:path*",
+      },
+    ];
+  },
   images: {
     remotePatterns: [{ hostname: "utfs.io" }],
   },
