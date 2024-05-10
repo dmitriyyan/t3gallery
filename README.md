@@ -45,4 +45,4 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
  - [x] add shadui
  - [x] Analytics (w/ Posthog)
  - [x] Delete button (w/ Server Actions)
- - [ ] Ratelimiting (w/ upstash)
+ - [x] Ratelimiting (w/ upstash)
