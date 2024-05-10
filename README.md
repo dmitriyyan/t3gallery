@@ -43,6 +43,6 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
  - [x] Error management (w/ Sentry)
  - [x] Routing/image page (parallel route)
  - [x] add shadui
- - [ ] Analytics (w/ Posthog)
+ - [x] Analytics (w/ Posthog)
  - [ ] Delete button (w/ Server Actions)
  - [ ] Ratelimiting (w/ upstash)
